@@ -1,0 +1,250 @@
+/* Base styles */
+.TEXtallign {
+    margin-top: 150px;
+}
+
+.btn.btn-primary {
+    background: #ffbd39;
+    border: 1px solid #ffbd39 !important;
+    color: black;
+    cursor: pointer;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    border-radius: 40px;
+    -webkit-box-shadow: 0px 24px 36px -11px rgba(0, 0, 0, 0.09);
+    -moz-box-shadow: 0px 24px 36px -11px rgba(0, 0, 0, 0.09);
+    box-shadow: 0px 24px 36px -11px rgba(0, 0, 0, 0.09);
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+/* Slider styles */
+.owl-carousel.home-slider .slider-item .slider-text .subheading {
+    color: #131212;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #ffbd39;
+}
+
+.owl-carousel.home-slider .slider-item .slider-text h1 span {
+    font-weight: 700;
+    color: #ffbd39;
+}
+
+.owl-carousel.home-slider .slider-item .slider-text h1 {
+    font-size: 60px;
+    color: #fff;
+    line-height: 1.2;
+    font-weight: 800;
+}
+
+/* Body background color */
+.body {
+    background-color: #010c14;
+    color: #fff;
+
+}
+
+/* Text color */
+.mb-4 {
+    color: #fff;
+}
+
+/* White button styles */
+.btn.btn-white.btn-outline-white {
+    border: 1px solid rgba(255, 255, 255, 0.5) !important;
+    background: transparent !important;
+    color: #fff !important;
+}
+
+/* Responsive Styles */
+/* Adjust styles for smaller screens */
+@media only screen and (max-width: 768px) {
+    .slider-text h1 {
+        font-size: 40px;
+    }
+}
+
+
+/* Certificates */
+/* Base styles */
+.TEXtallign {
+    margin-top: 150px;
+}
+section{
+    background-color: black;
+}
+
+
+body {
+    background-color: black;
+    color: white;
+    
+}
+
+/* Button styles */
+.btn.btn-primary {
+    background: #ffbd39;
+    border: 1px solid #ffbd39 !important;
+    color: black;
+    cursor: pointer;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    border-radius: 40px;
+    -webkit-box-shadow: 0px 24px 36px -11px rgba(0, 0, 0, 0.09);
+    -moz-box-shadow: 0px 24px 36px -11px rgba(0, 0, 0, 0.09);
+    box-shadow: 0px 24px 36px -11px rgba(0, 0, 0, 0.09);
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+.resume-wrap {
+    width: 100%;
+    margin-bottom: 30px;
+    background: rgba(255, 255, 255, .1);
+    padding: 20px;
+    border-radius: 9px;
+}
+
+.resume-wrap .position {
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.resume-wrap .date {
+    color: #ffbd39;
+    font-weight: 900;
+    font-size: 26px;
+}
+
+/* Responsive Styles */
+/* Adjust styles for smaller screens */
+/* skills */
+
+.serMove{
+
+    text-align: center;
+   
+}
+
+
+.services-1 {
+    margin-bottom: 39px;
+    padding: 3em;
+    color: yellow;
+    text-decoration: none;
+    background: rgba(108, 93, 93, 0.1);
+    width: 100%;
+}
+
+.services-1 .icon {
+    display: block;
+    margin-bottom: 30px;
+}
+
+.services-1 .icon i {
+    font-size: 60px;
+    line-height: 1.0;
+    color: primary;
+}
+
+
+/* skills */
+
+/* Base styles */
+.TEXtallign {
+    margin-top: 200px;
+  }
+  section{
+    background-color: #000000;
+  }
+  body {
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    margin: 0px;
+  }
+  
+  .progress-wrap {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  
+  .col-md-6 {
+    background-color: rgb(0, 0, 0);
+  }
+  
+  .progress {
+    height: 10px;
+    box-shadow: none;
+    background: rgb(170, 155, 155);
+    overflow: visible;
+  }
+  
+  .progress-bar {
+    background: yellow;
+    box-shadow: none;
+    font-size: 12px;
+    line-height: 1.2;
+    color: rgb(43, 36, 36);
+    font-weight: 600;
+    position: relative;
+    overflow: visible;
+    border-radius: 2px;
+  }
+  
+  .progress-bar:after {
+    position: absolute;
+    top: -2px;
+    right: 0;
+    width: 34px;
+    height: 34px;
+    content: '';
+  
+    border-radius: 2px;
+    opacity: 0;
+  }
+  
+  .progress-bar span {
+    position: absolute;
+    top: -38px;
+    right: 0;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+  }
+  
+  /* Responsive Styles */
+  /* Adjust styles for smaller screens */
+  @media only screen and (max-width: 768px) {
+    .TEXtallign {
+        margin-top: 100px;
+    }
+  
+    .progress-wrap {
+        margin-bottom: 20px;
+    }
+  
+    .col-md-6 {
+        background-color: rgb(0, 0, 0);
+    }
+  
+    .progress-bar span {
+        font-size: 16px;
+    }
+  }
+  
+
+  /* projects */
+  .ProjCentre{
+    text-align: center;
+  }

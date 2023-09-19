@@ -1,0 +1,60 @@
+/* Base styles */
+.TEXtallign {
+    margin: 0;
+    text-align: center;
+    background-color: #050505;
+    color: rgb(228, 234, 239);
+}
+
+.mb-4 {
+    padding-top: 85px;
+}
+
+.row {
+    margin-top: 80px;
+}
+
+.services-1 {
+    margin-bottom: 39px;
+    padding: 3em;
+    color: yellow;
+    text-decoration: none;
+    background: rgba(108, 93, 93, 0.1);
+    width: 100%;
+}
+
+.services-1 .icon {
+    display: block;
+    margin-bottom: 30px;
+}
+
+.services-1 .icon i {
+    font-size: 60px;
+    line-height: 1.0;
+    color: primary;
+}
+
+/* Responsive Styles */
+/* Adjust styles for smaller screens */
+@media only screen and (max-width: 768px) {
+    .TEXtallign {
+        padding: 20px;
+    }
+
+    .mb-4 {
+        padding-top: 50px;
+    }
+
+    .row {
+        margin-top: 40px;
+    }
+
+    .services-1 {
+        padding: 1.5em;
+        margin-bottom: 20px;
+    }
+
+    .services-1 .icon i {
+        font-size: 40px;
+    }
+}
