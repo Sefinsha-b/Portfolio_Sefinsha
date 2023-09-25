@@ -1,0 +1,53 @@
+/* Reset default margin and padding for body, headers, and paragraphs */
+body, h1, h2, ul, li, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply styles to header */
+header {
+    background-color: #2b2a2a;
+    color: #f7f3f3;
+    text-align: center;
+    padding: 20px;
+}
+/* Apply styles to main content */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Apply styles to headings */
+h1, h2 {
+    color: #333;
+}
+
+/* Apply styles to key features list */
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+/* Apply styles to paragraphs */
+p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 24px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    ul {
+        margin-left: 10px;
+    }
+    p {
+        font-size: 16px;
+    }
+}

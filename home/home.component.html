@@ -12,11 +12,11 @@
                             <div class="TEXtallign">
                                 <div class="text">
                                     <span class="subheading">Hello!</span>
-                                    <h1 class="mb-4 mt-3">I'm <span>Sefinsha.b</span></h1>
+                                    <h1 class="mb-4 mt-3">I'm <span>Sefinsha.B</span></h1>
                                     <h2 class="mb-4">A MEAN-STACK Developer</h2>
                                     <div>
-                                        <p><a href="https://www.linkedin.com/in/sefin-sha-4086bb28a
-                                            " class="btn btn-primary py-3 px-4">LinkedIn</a>
+                                        <p><a href="https://www.naukri.com/mnjuser/profile?id=&altresid
+                                            " class="btn btn-primary py-3 px-4">Naukri</a>
 
 
                                             <a href="https://github.com/Sefinsha-b"
@@ -41,9 +41,11 @@
 
                                     <h1 class="mb-4 mt-3">I'm a <span>Software Developer</span> based <tr> in kerala
                                     </h1>
-                                    <p><a class="btn btn-primary py-3 px-4" [routerLink]="['/contact']">Hire me</a> <a
-                                            href="https://github.com/Sefinsha-b" class="btn btn-primary py-3 px-4">My
-                                            works</a></p>
+                                    <p>
+                                        <a class="btn btn-primary py-3 px-4" href="/contact">Hire me</a>
+                                        <a class="btn btn-primary py-3 px-4" href="/projects">My works</a>
+                                    </p>
+                                    
                                 </div>
                             </div>
                         </div>
@@ -353,7 +355,7 @@
             </section>
 
         </body>
-
+        <!-- sdsdasdasdasd -->
 
         <div class="TEXtallign">
             <div class="tilt">
@@ -380,7 +382,20 @@
 
                                     }
                                 </style>
-                                <h2 class="mb-5">PetZey</h2>
+                                <a [routerLink]="'/P1'">
+                                    <style>
+                                        a {
+                                            color: inherit;
+                                            /* Use the default text color of the parent element */
+                                            text-decoration: none;
+                                            /* Remove underlines or other text decorations */
+                                        }
+                                    </style>
+                                    <h2 class="mb-5">PetLuxury Haven </h2>
+                                </a>
+
+
+
                                 <ul class="bullet-allign">
                                     <li>Angular</li>
                                     <li>CRUD</li>
@@ -392,34 +407,28 @@
                             </div>
                         </a>
                     </div>
+
                     <div class="col-md-4 text-center d-flex ftco-animate">
-                        <a href="#" class="services-1">
-                            <span class="icon">
-                                <i class="flaticon-flasks"></i>
-                            </span>
-                            <div class="desc">
-                                <h3 class="mb-5">BossApp</h3>
-
-                                <ul class="bullet-allign">
-                                    <li>REST-Api</li>
-                                    <li>Angular</li>
-                                    <li>Node.js</li>
-                                    <li>MongoDb</li>
-                                    <li>Netlify</li>
-
-
-
-                                </ul>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-md-4 text-center d-flex ftco-animate">
-                        <a href="#" class="services-1">
+                        <a class="services-1">
                             <span class="icon">
                                 <i class="flaticon-ideas"></i>
                             </span>
                             <div class="desc">
-                                <h3 class="mb-5">Coursera Clone</h3>
+                                <a [routerLink]="'/P3'">
+                                    <style>
+                                        a {
+                                            color: inherit;
+                                            /* Use the default text color of the parent element */
+                                            text-decoration: none;
+                                            /* Remove underlines or other text decorations */
+                                        }
+                                    </style>
+                                    <h2 class="mb-5">Coursera Clone</h2>
+                                </a>
+
+
+
+
                                 <ul class="bullet-allign">
                                     <li>HTML</li>
                                     <li>CSS</li>
@@ -432,12 +441,23 @@
                     </div>
 
                     <div class="col-md-4 text-center d-flex ftco-animate">
-                        <a href="#" class="services-1">
+                        <a class="services-1">
                             <span class="icon">
                                 <i class="flaticon-analysis"></i>
                             </span>
                             <div class="desc">
-                                <h3 class="mb-5"> Portfolio</h3>
+
+                                <a [routerLink]="'/P2'">
+                                    <style>
+                                        a {
+                                            color: inherit;
+                                            /* Use the default text color of the parent element */
+                                            text-decoration: none;
+                                            /* Remove underlines or other text decorations */
+                                        }
+                                    </style>
+                                    <h2 class="mb-5">Portfolio</h2>
+                                </a>
                                 <ul class="bullet-allign">
                                     <li>Html,Css</li>
                                     <li>Email.js</li>
@@ -452,13 +472,15 @@
                         </a>
                     </div>
                     <div class="col-md-4 text-center d-flex ftco-animate">
-                        <a href="#" class="services-1">
+                        <a class="services-1">
                             <span class="icon">
                                 <i class="flaticon-flasks"></i>
                             </span>
                             <div class="desc">
-                                <h3 class="mb-5">Teams-Clone</h3>
+                                <h3 class="mb-5">TripON</h3>
                                 <ul class="bullet-allign">
+                                    <li>Angular</li>
+                                    <li>Bootstrap</li>
                                     <li>IN Progress</li>
 
 
@@ -470,84 +492,88 @@
 
                 </div>
             </div>
-        </div>
 
-        <div class="footer">
-            <div class="container">
-                <div class="row">
-                    <!-- Column 1: About -->
-                    <div class="col-md-4">
-                        <div class="ftco-footer-widget mb-4">
-                            <h2 class="ftco-heading-2">About</h2>
-                            <p>Aspiring Web Developer <br>Eager to Make an Impact</p>
-                            <!-- Social Media Links -->
-                            <ul class="ftco-footer-social list-unstyled">
-                                <li class="ftco-animate"><a><span class="icon-twitter"></span></a></li>
-                                <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-                                <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!-- Column 2: Links -->
-                    <div class="col-md-2">
-                        <div class="ftco-footer-widget mb-4">
-                            <h2 class="ftco-heading-2">Links</h2>
-                            <ul class="list-unstyled">
-                                <style>
-                                    /* Apply a new color to anchor links */
-                                    ul.list-unstyled li a {
-                                        color: rgb(242, 242, 242);
-                                        /* Replace with the color you want */
-                                        text-decoration: none;
-                                        /* Optional: Remove underlines from links */
-                                    }
 
-                                    /* Apply a different color when hovering over anchor links */
-                                    ul.list-unstyled li a:hover {
-                                        color: rgb(201, 194, 194);
-                                        /* Replace with the hover color you want */
-                                    }
-                                </style>
-                                <li><a routerLink="/"><span class="icon-long-arrow-right mr-2"></span>Home</a>
-                                </li>
-                                <li><a routerLink="/about"><span
-                                            class="icon-long-arrow-right mr-2"></span>About</a></li>
-                                <li><a routerLink="/service"><span
-                                            class="icon-long-arrow-right mr-2"></span>Services</a></li>
-                                <li><a routerLink="/projects"><span
-                                            class="icon-long-arrow-right mr-2"></span>Projects</a></li>
+            <!-- zsxsaxasx -->
 
-                            </ul>
-                        </div>
-                    </div>
-                    <!-- Column 3: Services -->
-                    <div class="col-md-3">
-                        <div class="ftco-footer-widget mb-4">
-                            <h2 class="ftco-heading-2">Services</h2>
-                            <ul class="list-unstyled">
-                                <li><a><span class="icon-long-arrow-right mr-2"></span>Web Design</a></li>
-                                <li><a><span class="icon-long-arrow-right mr-2"></span>Web Development</a></li>
-                                <li><a><span class="icon-long-arrow-right mr-2"></span>Business Strategy</a></li>
-                                <li><a><span class="icon-long-arrow-right mr-2"></span>Data Analysis</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!-- Column 4: Contact -->
-                    <div class="col-md-3">
-                        <div class="ftco-footer-widget mb-4">
-                            <h2 class="ftco-heading-2">Have a Question?</h2>
-                            <div class="block-23 mb-3">
-                                <ul>
-                                    <li><span class="icon icon-map-marker"></span><span class="text">SulthanCottage
-                                            India kerala</span></li>
-                                    <li><span class="icon icon-phone"></span><span class="text">+91 7994894103</span>
-                                    </li>
-                                    <li><span class="icon icon-envelope"></span><span
-                                            class="text">Sefinsha4@gmail.com</span></li>
+
+            <div class="footer">
+                <div class="container">
+                    <div class="row">
+                        <!-- Column 1: About -->
+                        <div class="col-md-4">
+                            <div class="ftco-footer-widget mb-4">
+                                <h2 class="ftco-heading-2">About</h2>
+                                <p>Aspiring Web Developer <br>Eager to Make an Impact</p>
+                                <!-- Social Media Links -->
+                                <ul class="ftco-footer-social list-unstyled">
+                                    <li class="ftco-animate"><a><span class="icon-twitter"></span></a></li>
+                                    <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+                                    <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
                                 </ul>
+                            </div>
+                        </div>
+                        <!-- Column 2: Links -->
+                        <div class="col-md-2">
+                            <div class="ftco-footer-widget mb-4">
+                                <h2 class="ftco-heading-2">Links</h2>
+                                <ul class="list-unstyled">
+                                    <style>
+                                        /* Apply a new color to anchor links */
+                                        ul.list-unstyled li a {
+                                            color: rgb(242, 242, 242);
+                                            /* Replace with the color you want */
+                                            text-decoration: none;
+                                            /* Optional: Remove underlines from links */
+                                        }
+
+                                        /* Apply a different color when hovering over anchor links */
+                                        ul.list-unstyled li a:hover {
+                                            color: rgb(201, 194, 194);
+                                            /* Replace with the hover color you want */
+                                        }
+                                    </style>
+                                    <li><a routerLink="/"><span class="icon-long-arrow-right mr-2"></span>Home</a>
+                                    </li>
+                                    <li><a routerLink="/about"><span class="icon-long-arrow-right mr-2"></span>About</a>
+                                    </li>
+                                    <li><a routerLink="/service"><span
+                                                class="icon-long-arrow-right mr-2"></span>Services</a></li>
+                                    <li><a routerLink="/projects"><span
+                                                class="icon-long-arrow-right mr-2"></span>Projects</a></li>
+
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- Column 3: Services -->
+                        <div class="col-md-3">
+                            <div class="ftco-footer-widget mb-4">
+                                <h2 class="ftco-heading-2">Services</h2>
+                                <ul class="list-unstyled">
+                                    <li><a><span class="icon-long-arrow-right mr-2"></span>Web Design</a></li>
+                                    <li><a><span class="icon-long-arrow-right mr-2"></span>Web Development</a></li>
+                                    <li><a><span class="icon-long-arrow-right mr-2"></span>Business Strategy</a></li>
+                                    <li><a><span class="icon-long-arrow-right mr-2"></span>Data Analysis</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- Column 4: Contact -->
+                        <div class="col-md-3">
+                            <div class="ftco-footer-widget mb-4">
+                                <h2 class="ftco-heading-2">Have a Question?</h2>
+                                <div class="block-23 mb-3">
+                                    <ul>
+                                        <li><span class="icon icon-map-marker"></span><span class="text">SulthanCottage
+                                                India kerala</span></li>
+                                        <li><span class="icon icon-phone"></span><span class="text">+91
+                                                7994894103</span>
+                                        </li>
+                                        <li><span class="icon icon-envelope"></span><span
+                                                class="text">Sefinsha4@gmail.com</span></li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>

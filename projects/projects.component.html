@@ -1,9 +1,9 @@
 <div class="TEXtallign">
     <div class="tilt">
-        <h2 class="mb-4">Services</h2>
+        <h2 class="mb-4">Projects</h2>
         <div class="row">
             <div class="col-md-4 text-center d-flex ftco-animate">
-                <a href="#" class="services-1">
+                <a class="services-1">
                     <span class="icon">
                         <i class="flaticon-analysis"></i>
                     </span>
@@ -17,11 +17,27 @@
                                 margin-left: 20px;
                                 /* Adjust the left margin for indentation */
                                 margin-bottom: 10px;
+
                                 /* Add spacing between list items */
+                                /* Remove the blue link color */
+
 
                             }
                         </style>
-                        <h2 class="mb-5">PetZey</h2>
+                        <a [routerLink]="'/P1'">
+                            <style>
+                                a {
+                                    color: inherit;
+                                    /* Use the default text color of the parent element */
+                                    text-decoration: none;
+                                    /* Remove underlines or other text decorations */
+                                }
+                            </style>
+                            <h2 class="mb-5">PetLuxury Haven </h2>
+                        </a>
+
+
+
                         <ul class="bullet-allign">
                             <li>Angular</li>
                             <li>CRUD</li>
@@ -33,40 +49,33 @@
                     </div>
                 </a>
             </div>
+
             <div class="col-md-4 text-center d-flex ftco-animate">
-                <a href="#" class="services-1">
-                    <span class="icon">
-                        <i class="flaticon-flasks"></i>
-                    </span>
-                    <div class="desc">
-                        <h3 class="mb-5">BossApp</h3>
-                       
-                        <ul class="bullet-allign">
-                            <li>REST-Api</li>
-                            <li>TypeScript</li>
-                            <li>Angular</li>
-                            <li>Node.js</li>
-                            <li>MongoDb</li>
-                            <li>Netlify</li>
-
-
-
-                        </ul>
-                    </div>
-                </a>
-            </div>
-            <div class="col-md-4 text-center d-flex ftco-animate">
-                <a href="#" class="services-1">
+                <a class="services-1">
                     <span class="icon">
                         <i class="flaticon-ideas"></i>
                     </span>
                     <div class="desc">
-                        <h3 class="mb-5">Coursera Clone</h3>
+                        <a [routerLink]="'/P3'">
+                            <style>
+                                a {
+                                    color: inherit;
+                                    /* Use the default text color of the parent element */
+                                    text-decoration: none;
+                                    /* Remove underlines or other text decorations */
+                                }
+                            </style>
+                            <h2 class="mb-5">Coursera Clone</h2>
+                        </a>
+
+
+
+
                         <ul class="bullet-allign">
                             <li>HTML</li>
                             <li>CSS</li>
                             <li>Bootstrap</li>
-                            
+
 
                         </ul>
                     </div>
@@ -74,18 +83,29 @@
             </div>
 
             <div class="col-md-4 text-center d-flex ftco-animate">
-                <a href="#" class="services-1">
+                <a class="services-1">
                     <span class="icon">
                         <i class="flaticon-analysis"></i>
                     </span>
                     <div class="desc">
-                        <h3 class="mb-5"> Portfolio</h3>
+
+                        <a [routerLink]="'/P2'">
+                            <style>
+                                a {
+                                    color: inherit;
+                                    /* Use the default text color of the parent element */
+                                    text-decoration: none;
+                                    /* Remove underlines or other text decorations */
+                                }
+                            </style>
+                            <h2 class="mb-5">Portfolio</h2>
+                        </a>
                         <ul class="bullet-allign">
                             <li>Html,Css</li>
                             <li>Email.js</li>
                             <li>Bootstrap</li>
                             <li>Angular</li>
-                       
+
                             <li>Netlify</li>
 
 
@@ -94,22 +114,24 @@
                 </a>
             </div>
             <div class="col-md-4 text-center d-flex ftco-animate">
-                <a href="#" class="services-1">
+                <a class="services-1">
                     <span class="icon">
                         <i class="flaticon-flasks"></i>
                     </span>
                     <div class="desc">
-                        <h3 class="mb-5">Teams-Clone</h3>
+                        <h3 class="mb-5">TripON</h3>
                         <ul class="bullet-allign">
+                            <li>Angular</li>
+                            <li>Bootstrap</li>
                             <li>IN Progress</li>
-                         
+
 
 
                         </ul>
                     </div>
                 </a>
             </div>
-          
+
         </div>
     </div>
 </div>

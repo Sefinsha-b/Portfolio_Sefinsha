@@ -11,6 +11,9 @@ import { ResumeComponent } from './resume/resume.component';
 import { ServicesComponent } from './services/services.component';
 import { SkillsComponent } from './skills/skills.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { Project1DescriptionComponent } from './project1-description/project1-description.component';
+import { P2Component } from './p2/p2.component';
+import { P3Component } from './p3/p3.component';
 
 
 
@@ -25,7 +28,10 @@ import { NavbarComponent } from './navbar/navbar.component';
     ResumeComponent,
     ServicesComponent,
     SkillsComponent,
-    NavbarComponent
+    NavbarComponent,
+    Project1DescriptionComponent,
+    P2Component,
+    P3Component
    
   ],
   imports: [

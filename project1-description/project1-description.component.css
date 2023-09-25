@@ -1,0 +1,47 @@
+/* Reset default margin and padding for body and headers */
+body,
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply styles to header */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Apply styles to main content */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Apply styles to paragraphs */
+p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+/* Apply styles to footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Make the content responsive */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+}

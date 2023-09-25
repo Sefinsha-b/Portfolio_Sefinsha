@@ -1,6 +1,6 @@
 /* Base styles */
 .TEXtallign {
-    margin-top: 150px;
+    margin-top: 10px;
 }
 
 .btn.btn-primary {
@@ -74,9 +74,10 @@
 /* Certificates */
 /* Base styles */
 .TEXtallign {
-    margin-top: 150px;
+    margin-top: 10px;
 }
-section{
+
+section {
     background-color: black;
 }
 
@@ -84,7 +85,7 @@ section{
 body {
     background-color: black;
     color: white;
-    
+
 }
 
 /* Button styles */
@@ -131,10 +132,10 @@ body {
 /* Adjust styles for smaller screens */
 /* skills */
 
-.serMove{
+.serMove {
 
     text-align: center;
-   
+
 }
 
 
@@ -162,35 +163,34 @@ body {
 /* skills */
 
 /* Base styles */
-.TEXtallign {
-    margin-top: 200px;
-  }
-  section{
+
+section {
     background-color: #000000;
-  }
-  body {
+}
+
+body {
     background-color: rgb(0, 0, 0);
     color: aliceblue;
     margin: 0px;
-  }
-  
-  .progress-wrap {
+}
+
+.progress-wrap {
     width: 100%;
     margin-bottom: 40px;
-  }
-  
-  .col-md-6 {
+}
+
+.col-md-6 {
     background-color: rgb(0, 0, 0);
-  }
-  
-  .progress {
+}
+
+.progress {
     height: 10px;
     box-shadow: none;
     background: rgb(170, 155, 155);
     overflow: visible;
-  }
-  
-  .progress-bar {
+}
+
+.progress-bar {
     background: yellow;
     box-shadow: none;
     font-size: 12px;
@@ -200,51 +200,51 @@ body {
     position: relative;
     overflow: visible;
     border-radius: 2px;
-  }
-  
-  .progress-bar:after {
+}
+
+.progress-bar:after {
     position: absolute;
     top: -2px;
     right: 0;
     width: 34px;
     height: 34px;
     content: '';
-  
+
     border-radius: 2px;
     opacity: 0;
-  }
-  
-  .progress-bar span {
+}
+
+.progress-bar span {
     position: absolute;
     top: -38px;
     right: 0;
     font-size: 20px;
     font-weight: 400;
     color: rgb(255, 255, 255);
-  }
-  
-  /* Responsive Styles */
-  /* Adjust styles for smaller screens */
-  @media only screen and (max-width: 768px) {
+}
+
+/* Responsive Styles */
+/* Adjust styles for smaller screens */
+@media only screen and (max-width: 768px) {
     .TEXtallign {
         margin-top: 100px;
     }
-  
+
     .progress-wrap {
         margin-bottom: 20px;
     }
-  
+
     .col-md-6 {
         background-color: rgb(0, 0, 0);
     }
-  
+
     .progress-bar span {
         font-size: 16px;
     }
-  }
-  
+}
 
-  /* projects */
-  .ProjCentre{
+
+/* projects */
+.ProjCentre {
     text-align: center;
-  }
+}

@@ -5,7 +5,32 @@
     background-color: #050505;
     color: rgb(228, 234, 239);
 }
+.card {
+    width: 300px;
+    background-color: #232020;
+    border: 1px solid #060606;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+    color: white;
+  }
 
+  /* Styling for the dropdown content */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #0e0d0d;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(155, 127, 127, 0.2);
+    z-index: 1;
+    top: 100%;
+    left: 0;
+  }
+
+  .card:hover .dropdown-content {
+    display: block;
+  }
 .mb-4 {
     padding-top: 85px;
 }
